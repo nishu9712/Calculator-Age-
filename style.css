@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color:lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.age-calculator {
+  background:lightcyan;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+input {
+  width: 30%;
+  padding: 10px;
+  margin: 0.5rem 0.3rem;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
